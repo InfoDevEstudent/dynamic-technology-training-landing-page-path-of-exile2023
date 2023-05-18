@@ -9,11 +9,11 @@
 
 #head-container{
     width: 100%;
-    height: 240px;
+    /* height: 240px; */
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-image: url(/img/imgHead.svg);
+    background-image: url(/img/BGMenuPrincipalPoE.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
