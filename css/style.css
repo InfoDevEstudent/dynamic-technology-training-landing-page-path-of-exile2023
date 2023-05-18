@@ -70,3 +70,49 @@ html, body{
 .icons i{
     padding-right: 5px;
 }
+
+#video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/img/BGVideoPoE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 10px;
+}
+.video-description h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 110%;
+    text-align: center;
+    color: #FEFFFF;
+    text-shadow: 2px 2px 2px #A5A5A5 ;
+    padding-bottom: 10px;
+}
+.video-description h2 strong{
+    color: #FF1F00;
+}
+.video-description p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #FEFFFF;
+    text-shadow: 2px 2px 2px #A5A5A5 ;
+    padding-top: 10px;
+
+}
+.video-content{
+    display: flex;
+    justify-content: center;
+}
+.video-content iframe{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+}
