@@ -44,3 +44,29 @@ html, body{
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #000000 ;
 }
+
+#icons-container{
+    /* height: 65px; */
+    padding: 20px 20px;
+    background-image: url(/img/IconesPoE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icons{
+    margin-bottom: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.icons img{
+    width: 20px;
+}
+.icons i{
+    padding-right: 5px;
+}
