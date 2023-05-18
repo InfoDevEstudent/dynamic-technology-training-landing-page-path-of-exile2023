@@ -8,10 +8,11 @@
 }
 
 #head-container{
+    width: 100%;
     height: 240px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     background-image: url(/img/imgHead.svg);
     background-size: cover;
     background-position: center;
@@ -33,9 +34,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 110%;
     color: #FFFFFF;
     text-shadow: 2px 2px 2px  #000000 ;
-/* border: 1px solid #000000; */
 }
