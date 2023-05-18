@@ -56,6 +56,7 @@ html, body{
     justify-content: center;
 }
 .icons{
+    display: flex;
     margin-bottom: 15px;
     font-family: 'Inter';
     font-style: normal;
@@ -64,12 +65,13 @@ html, body{
     line-height: 110%;
     color: #FFFFFF;
 }
-.icons img{
-    width: 20px;
-}
-#icons-container .icons p i{
+.icons i{
+    font-size: 18px;
     color: #FEFFFF;
-    padding-right: 5px;
+    padding-right: 10px;
+}
+.icons p{
+    font-size: 14px;
 }
 
 #video-container{
