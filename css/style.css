@@ -67,7 +67,7 @@ html, body{
 .icons img{
     width: 20px;
 }
-.icons i{
+#icons-container .icons p i{
     color: #FEFFFF;
     padding-right: 5px;
 }
