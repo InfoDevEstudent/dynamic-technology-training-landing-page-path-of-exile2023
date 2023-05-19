@@ -18,7 +18,7 @@ html, body{
     flex: 1 0 auto;
     flex-direction: column;
     justify-content: end;
-    background-image: url(/img/BGMenuPrincipalPoE.png);
+    background-image: url(/img/BGMenuPrincipalPoE.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(/img/BGVideoPoE.png);
+    background-image: url(/img/BGVideoPoE.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 10px;
